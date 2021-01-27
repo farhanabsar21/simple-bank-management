@@ -1,0 +1,56 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    padding: 100px;
+    background-color: #ffdab3;
+}
+.login-area{
+    background-color: #ffe6e6;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+}
+.submit-area{
+    padding: 10px 5px;
+}
+.submit-input{
+    padding: 2rem 1rem;
+    background-color: #ffdab3;
+    border-radius: 20px;
+    margin: 0 10px;
+    color: crimson;
+}
+.button{
+    outline: none;
+    border: none;
+    padding: 8px 36px;
+    background-image: linear-gradient(45deg, #dc143c,#e6005c,#e6005c);
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+.btn-check:focus + .btn, .btn:focus{
+    box-shadow: none;
+}
+
+#transaction-area{
+    display: none;
+}
+.common{
+    margin: 0 15px;
+    padding: 25px 20px;
+    color: #ffffff;
+    border-radius: 15px;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: lightseagreen;
+}
